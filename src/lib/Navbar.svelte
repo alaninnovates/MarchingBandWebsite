@@ -22,7 +22,7 @@
 			</svg>
 		</a>
 	</div>
-	<div class="block lg:hidden">
+	<div class="block hidden">
 		<button
 			class="flex items-center px-3 py-2 border rounded text-black border-black hover:text-gray-600 hover:border-gray-600"
 			id="menu-button"
