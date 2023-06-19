@@ -1,4 +1,9 @@
-<div class="w-full h-screen bg-cover bg-center bg-header">
+<script>
+	import Navbar from '$lib/Navbar.svelte';
+</script>
+
+<div class="w-full h-96 bg-cover bg-center bg-header">
+	<Navbar />
 	<div class="flex h-full w-full items-center justify-center">
 		<div class="text-center p-10">
 			<h1 class="text-4xl font-bold">Los Altos High School Marching Band</h1>
