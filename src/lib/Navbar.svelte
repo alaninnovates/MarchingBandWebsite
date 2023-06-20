@@ -1,5 +1,10 @@
 <script>
 	import NavbarLink from '$lib/NavbarLink.svelte';
+
+	/**
+	 * @type {any[]}
+	 */
+	export let links = [];
 </script>
 
 <nav class="flex items-center justify-between flex-wrap p-4">
@@ -33,10 +38,8 @@
 		</button>
 	</div>
 	<div>
-		<NavbarLink>Photos</NavbarLink>
-		<NavbarLink>Staff</NavbarLink>
-		<NavbarLink>News</NavbarLink>
-		<NavbarLink>Sign Up</NavbarLink>
-		<NavbarLink>Members</NavbarLink>
+		{#each links as link}
+			<NavbarLink href={link.href}>{link.label}</NavbarLink>
+		{/each}
 	</div>
 </nav>

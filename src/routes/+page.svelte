@@ -7,7 +7,7 @@
 	import Video from '$lib/Video.svelte';
 </script>
 
-<Header />
+<Header links={DATA.NAV_DATA.LINKS} />
 <About />
 <Carousel images={DATA.IMAGE_DATA.IMAGES_LIST} />
 <Video />

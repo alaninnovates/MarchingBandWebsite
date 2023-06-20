@@ -8,8 +8,19 @@ const IMAGE_DATA = {
 	]
 };
 
+const NAV_DATA = {
+	LINKS: [
+		{ label: 'Photos', href: '#photos' },
+		{ label: 'Staff', href: '#staff' },
+		{ label: 'News', href: '#news' },
+		{ label: 'Sign Up', href: '#signup' }
+		// { label: "Members", src: "/members" },
+	]
+};
+
 const DATA = {
-	IMAGE_DATA
+	IMAGE_DATA,
+	NAV_DATA
 };
 
 export default DATA;
