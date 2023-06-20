@@ -1,7 +1,9 @@
+<script>
+	import Heading from '$lib/Heading.svelte';
+</script>
+
 <div class="mt-10 mx-8">
-	<div class="font-bold text-center text-2xl mb-2">
-		<span class="p-2">Why marching band?</span>
-	</div>
+	<Heading>Why marching band?</Heading>
 	<div class="w-full flex justify-center">
 		<div class="max-w-4xl">
 			<p>

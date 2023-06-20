@@ -1,15 +1,15 @@
 <script>
+	import CarouselImage from '$lib/CarouselImage.svelte';
+	import Heading from '$lib/Heading.svelte';
+
 	/**
 	 * @type {any}
 	 */
 	export let images = [];
-	import CarouselImage from '$lib/CarouselImage.svelte';
 </script>
 
 <div class="mt-10">
-	<div class="font-bold text-center text-2xl mb-4">
-		<span class=" p-2">Photos</span>
-	</div>
+	<Heading>Photos</Heading>
 	<div class="relative flex overflow-x-hidden">
 		<div class="relative flex animate-marquee whitespace-nowrap min-w-max h-60">
 			{#each images as image}
