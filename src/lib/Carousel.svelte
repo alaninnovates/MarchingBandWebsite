@@ -8,7 +8,7 @@
 	export let images = [];
 </script>
 
-<div class="mt-10">
+<div class="">
 	<Heading>Photos</Heading>
 	<div class="relative flex overflow-x-hidden">
 		<div class="relative flex animate-marquee whitespace-nowrap min-w-max h-60">

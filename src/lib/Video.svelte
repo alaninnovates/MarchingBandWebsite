@@ -2,7 +2,7 @@
 	import Heading from '$lib/Heading.svelte';
 </script>
 
-<div class="mt-10 w-full flex flex-col items-center justify-center">
+<div class="w-full flex flex-col items-center justify-center">
 	<Heading>See us in action</Heading>
 	<iframe
 		width="560"
