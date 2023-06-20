@@ -3,8 +3,8 @@
 </script>
 
 <nav class="flex items-center justify-between flex-wrap p-4">
-	<div>
-		<a href="">
+	<div class="text-white">
+		<a href="/">
 			<!-- Put actual logo in here -->
 			<svg
 				xmlns="http://www.w3.org/2000/svg"

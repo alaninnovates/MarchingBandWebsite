@@ -21,6 +21,13 @@ const config = {
 					'100%': { transform: 'translateX(0%)' }
 				}
 			}
+		},
+		fontFamily: {
+			sans: ['ui-sans-serif', 'system-ui'],
+			serif: ['ui-serif', 'Georgia'],
+			mono: ['ui-monospace', 'SFMono-Regular'],
+			display: ['"Open Sans"'],
+			body: ['"Open Sans"']
 		}
 	},
 
