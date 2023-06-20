@@ -6,10 +6,11 @@
 	 * @type {any}
 	 */
 	export let images = [];
+	export let id = 'photos';
 </script>
 
 <div class="">
-	<Heading>Photos</Heading>
+	<Heading {id}>Photos</Heading>
 	<div class="relative flex overflow-x-hidden">
 		<div class="relative flex animate-marquee whitespace-nowrap min-w-max h-60">
 			{#each images as image}

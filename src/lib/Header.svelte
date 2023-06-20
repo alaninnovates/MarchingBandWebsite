@@ -15,7 +15,9 @@
 				<h1 class="text-4xl text-white font-extrabold font-display">
 					Los Altos High School Marching Band
 				</h1>
-				<button class="rounded-md bg-mblue text-white px-5 py-3 mt-3">Sign Up</button>
+				<a href="#join" class="inline-block rounded-md bg-mblue text-white px-5 py-3 mt-3"
+					>Sign Up</a
+				>
 			</div>
 		</div>
 	</div>

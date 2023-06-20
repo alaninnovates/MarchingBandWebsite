@@ -11,9 +11,9 @@ const IMAGE_DATA = {
 const NAV_DATA = {
 	LINKS: [
 		{ label: 'Photos', href: '#photos' },
-		{ label: 'Staff', href: '#staff' },
+		// { label: 'Staff', href: '#staff' },
 		{ label: 'News', href: '#news' },
-		{ label: 'Sign Up', href: '#signup' }
+		{ label: 'Join us!', href: '#join' }
 		// { label: "Members", src: "/members" },
 	]
 };
