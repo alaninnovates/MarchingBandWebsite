@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <div class="mt-10 mx-8">
 	<div class="font-bold text-center text-2xl mb-2">
 		<span class=" p-2">Why marching band?</span>
