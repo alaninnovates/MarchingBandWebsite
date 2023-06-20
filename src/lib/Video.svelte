@@ -1,5 +1,7 @@
-<div class="w-full flex flex-col items-center justify-center">
-	<div><h1>See us in action</h1></div>
+<div class="mt-10 w-full flex flex-col items-center justify-center">
+	<div class="font-bold text-center text-2xl mb-4">
+		<span class=" p-2">See us in action</span>
+	</div>
 	<iframe
 		width="560"
 		height="315"

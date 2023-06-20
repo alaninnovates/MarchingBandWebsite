@@ -26,7 +26,7 @@ const config = {
 			sans: ['ui-sans-serif', 'system-ui'],
 			serif: ['ui-serif', 'Georgia'],
 			mono: ['ui-monospace', 'SFMono-Regular'],
-			display: ['"Open Sans"'],
+			display: ['"Playfair Display"'],
 			body: ['"Open Sans"']
 		}
 	},

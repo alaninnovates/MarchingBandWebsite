@@ -12,7 +12,7 @@
 	<div class="w-full h-full bg-gradient-to-b from-black">
 		<div class="flex h-full w-full items-center justify-center pb-10">
 			<div class="text-center p-10">
-				<h1 class="text-4xl text-white font-bold font-display">
+				<h1 class="text-4xl text-white font-extrabold font-display">
 					Los Altos High School Marching Band
 				</h1>
 				<button class="rounded-md bg-blue-600 text-white px-5 py-3 mt-3">Sign Up</button>
