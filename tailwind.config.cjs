@@ -20,6 +20,12 @@ const config = {
 					'0%': { transform: 'translateX(100%)' },
 					'100%': { transform: 'translateX(0%)' }
 				}
+			},
+			colors: {
+				mblue: {
+					light: '#60AFFF',
+					DEFAULT: '#3066BE'
+				}
 			}
 		},
 		fontFamily: {
