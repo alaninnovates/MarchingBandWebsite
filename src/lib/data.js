@@ -30,10 +30,21 @@ const NEWS_STORIES = [
 	}
 ];
 
+const STAFF_DATA = [
+	{
+		name: 'Mr. Ted Ferrucci',
+		role: 'Director',
+		blurb: '',
+		email: 'ted.ferrucci@mvla.net',
+		src: '/images/TedFerrucci.jpg'
+	}
+];
+
 const DATA = {
 	IMAGE_DATA,
 	NAV_DATA,
-	NEWS_STORIES
+	NEWS_STORIES,
+	STAFF_DATA
 };
 
 export default DATA;

@@ -7,6 +7,7 @@
 	import Video from '$lib/Video.svelte';
 	import News from '$lib/News.svelte';
 	import Footer from '$lib/Footer.svelte';
+	import StaffPage from '$lib/StaffPage.svelte';
 </script>
 
 <Header links={DATA.NAV_DATA.LINKS} />
@@ -16,4 +17,5 @@
 <Carousel images={DATA.IMAGE_DATA.IMAGES_LIST} />
 <Video />
 <News articles={DATA.NEWS_STORIES} />
+<StaffPage staff={DATA.STAFF_DATA} />
 <Footer />
