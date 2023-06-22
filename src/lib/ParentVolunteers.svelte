@@ -1,4 +1,4 @@
-<div class="my-10 px-5 flex">
+<div class="my-10 px-10 flex justify-center">
 	<div class="grid grid-rows-[5rem_4rem_max-content] grid-cols-[3rem_7rem_max-content]">
 		<img
 			src="/images/vol1.jpg"
@@ -16,12 +16,12 @@
 			class="w-64 h-44 object-cover col-start-2 row-start-3 col-span-3 z-20 hover:z-40 hover:drop-shadow-md"
 		/>
 	</div>
-	<div class="flex justify-center items-center ms-20">
+	<div class="flex justify-center items-center ms-10 lg:ms-20">
 		<div>
 			<div class="font-header text-4xl italic pb-5">
 				The success of marching band is made possible by our amazing parent volunteers.
 			</div>
-			<div>
+			<div class="text-lg">
 				For more info on the LAHS Instrumental Music Boosters, click <a
 					href="https://lahs.mvla.net/ParentsStudents/Parent-Booster-Organizations/Music-Boosters/index.html"
 					class="text-blue-500 underline">here</a
