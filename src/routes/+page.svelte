@@ -9,9 +9,11 @@
 	import Footer from '$lib/Footer.svelte';
 	import StaffPage from '$lib/StaffPage.svelte';
 	import ParentVolunteers from '$lib/ParentVolunteers.svelte';
+	import UpcomingSeason from '$lib/UpcomingSeason.svelte';
 </script>
 
 <Header links={DATA.NAV_DATA.LINKS} />
+<UpcomingSeason />
 <About />
 <JoinUs />
 <Carousel images={DATA.IMAGE_DATA.IMAGES_LIST} />

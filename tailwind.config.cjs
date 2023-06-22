@@ -5,7 +5,8 @@ const config = {
 	theme: {
 		extend: {
 			backgroundImage: {
-				header: "url('/images/header.png')"
+				header: "url('/images/header.png')",
+				winning: "url('/images/winning.png')"
 			},
 			animation: {
 				marquee: 'marquee 25s linear infinite',
