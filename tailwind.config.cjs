@@ -33,6 +33,7 @@ const config = {
 			serif: ['ui-serif', 'Georgia'],
 			mono: ['ui-monospace', 'SFMono-Regular'],
 			display: ['"Playfair Display"'],
+			header: ['"Nunito Sans"'],
 			body: ['"Open Sans"']
 		}
 	},
