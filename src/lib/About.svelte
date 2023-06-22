@@ -2,9 +2,9 @@
 	import Heading from '$lib/Heading.svelte';
 </script>
 
-<div class="mx-8">
+<div class="w-full flex justify-center bg-mblue mt-10 pb-10 px-8 text-white">
 	<Heading>Why marching band?</Heading>
-	<div class="w-full flex justify-center">
+	<div class="mx-8">
 		<div class="max-w-4xl">
 			<p>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut

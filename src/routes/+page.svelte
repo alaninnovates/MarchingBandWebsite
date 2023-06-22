@@ -14,8 +14,8 @@
 
 <Header links={DATA.NAV_DATA.LINKS} />
 <UpcomingSeason />
-<About />
 <JoinUs />
+<About />
 <Carousel images={DATA.IMAGE_DATA.IMAGES_LIST} />
 <Video />
 <ParentVolunteers />
