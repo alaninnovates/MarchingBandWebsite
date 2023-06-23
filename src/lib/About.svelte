@@ -2,10 +2,12 @@
 	import Heading from '$lib/Heading.svelte';
 </script>
 
-<div class="w-full grid grid-cols-2 grid-rows-1 bg-mblue mt-10 text-white py-5 overflow-hidden">
-	<div class="h-full col-span-1">
+<div
+	class="w-full grid grid-cols-[40%_60%] xl:grid-cols-2 grid-rows-1 bg-mblue mt-10 text-white py-10 overflow-hidden"
+>
+	<div class="col-span-1 flex justify-end items-center">
 		<img
-			class="h-full object-cover"
+			class="h-full max-h-[41rem] object-cover"
 			src="/images/whymarchingband.jpg"
 			alt="Group selfie of marching band members."
 		/>
