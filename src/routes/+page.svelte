@@ -4,7 +4,6 @@
 	import JoinUs from '$lib/JoinUs.svelte';
 	import About from '$lib/About.svelte';
 	import Carousel from '$lib/Carousel.svelte';
-	import Video from '$lib/Video.svelte';
 	import News from '$lib/News.svelte';
 	import Footer from '$lib/Footer.svelte';
 	import StaffPage from '$lib/StaffPage.svelte';
@@ -17,7 +16,6 @@
 <JoinUs />
 <About />
 <Carousel images={DATA.IMAGE_DATA.IMAGES_LIST} />
-<Video />
 <ParentVolunteers />
 <News articles={DATA.NEWS_STORIES} />
 <StaffPage staff={DATA.STAFF_DATA} />
