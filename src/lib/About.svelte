@@ -2,9 +2,14 @@
 	import Heading from '$lib/Heading.svelte';
 </script>
 
-<div
-	class="w-full flex flex-row-reverse justify-center items-center bg-mblue mt-10 text-white py-5"
->
+<div class="w-full grid grid-cols-2 grid-rows-1 bg-mblue mt-10 text-white py-5 overflow-hidden">
+	<div class="h-full col-span-1">
+		<img
+			class="h-full object-cover"
+			src="/images/whymarchingband.jpg"
+			alt="Group selfie of marching band members."
+		/>
+	</div>
 	<div class="mx-8 flex justify-start items-center min-w-min">
 		<div class="max-w-3xl">
 			<div class="text-2xl font-header mb-3">Why marching band?</div>
@@ -30,13 +35,6 @@
 			</div>
 			<div class="mt-3 text-sm">*Not available for freshmen</div>
 		</div>
-	</div>
-	<div class="h-full w-96 justify-self-stretch">
-		<img
-			class="h-full object-cover"
-			src="/images/whymarchingband.jpg"
-			alt="Group selfie of marching band members."
-		/>
 	</div>
 </div>
 
