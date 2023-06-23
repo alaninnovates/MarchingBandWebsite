@@ -2,14 +2,11 @@
 	import Heading from '$lib/Heading.svelte';
 </script>
 
-<div class="w-full flex justify-center bg-mblue mt-10 text-white py-5">
-	<img
-		class="w-96 object-cover"
-		src="/images/whymarchingband.jpg"
-		alt="Group selfie of marching band members."
-	/>
-	<div class="mx-8 flex justify-center items-center">
-		<div class="max-w-2xl">
+<div
+	class="w-full flex flex-row-reverse justify-center items-center bg-mblue mt-10 text-white py-5"
+>
+	<div class="mx-8 flex justify-start items-center min-w-min">
+		<div class="max-w-3xl">
 			<div class="text-2xl font-header mb-3">Why marching band?</div>
 			<div>
 				The marching band community is a welcoming one, and anyone who joins soon becomes a part of
@@ -18,7 +15,33 @@
 				not only develop instrumental skills, but also learn the importance of teamwork, as well as
 				what it takes to produce an entire field show. (Plus, you’ll get some PE credit* out of it!)
 			</div>
+			<div class="mt-3 italic">But don’t just take our word for it:</div>
+			<div class="pb-[56.25%] relative">
+				<iframe
+					width="100%"
+					height="100%"
+					src="https://www.youtube-nocookie.com/embed/CuHgPlsjy2E"
+					title="YouTube video player"
+					frameborder="0"
+					allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					allowfullscreen
+					class="absolute"
+				/>
+			</div>
 			<div class="mt-3 text-sm">*Not available for freshmen</div>
 		</div>
 	</div>
+	<div class="h-full w-96 justify-self-stretch">
+		<img
+			class="h-full object-cover"
+			src="/images/whymarchingband.jpg"
+			alt="Group selfie of marching band members."
+		/>
+	</div>
 </div>
+
+<style>
+	img {
+		height: 100%;
+	}
+</style>
