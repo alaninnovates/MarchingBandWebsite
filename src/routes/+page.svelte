@@ -9,6 +9,7 @@
 	import StaffPage from '$lib/StaffPage.svelte';
 	import ParentVolunteers from '$lib/ParentVolunteers.svelte';
 	import UpcomingSeason from '$lib/UpcomingSeason.svelte';
+	import FAQ from '$lib/FAQ.svelte';
 </script>
 
 <Header links={DATA.NAV_DATA.LINKS} />
@@ -19,4 +20,5 @@
 <ParentVolunteers />
 <News articles={DATA.NEWS_STORIES} />
 <StaffPage staff={DATA.STAFF_DATA} />
+<FAQ questions={DATA.QUESTIONS_DATA} />
 <Footer />
