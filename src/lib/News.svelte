@@ -11,7 +11,7 @@
 
 <div>
 	<Heading {id}>See what people are saying...</Heading>
-	<div class="flex flex-wrap justify-around">
+	<div class="flex flex-wrap justify-center">
 		{#each articles as article}
 			<Article {...article} />
 		{/each}
