@@ -18,7 +18,7 @@
 			{/each}
 		</div>
 
-		<div class="absolute top-0 flex flex-row-reverse animate-marquee2 whitespace-nowrap min-w-max">
+		<div class="absolute top-0 flex flex-row animate-marquee2 whitespace-nowrap min-w-max">
 			{#each images as image}
 				<CarouselImage {...image} />
 			{/each}
