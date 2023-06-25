@@ -85,11 +85,6 @@ const QUESTIONS_DATA = [
 			'ABSOLUTELY! BAND STUDENTS CLEARLY STAND OUT! In fact, most college admissions departments seek out music students, as they recognize all that is involved in our academic discipline. Our graduates are attending some of the top universities and colleges in the country. Every year, the music office phone rings with questions from college admissions departments regarding our students. Most of our students stand out when compared to non-music students, and every year we have graduates earning scholarships based on their music participation and academic merit. No other organization on campus at LAHS stands out in the way the Instrumental Music Program (bands, orchestras, choirs, and color guard) does.'
 	},
 	{
-		question: 'Does the band program travel/tour?',
-		answer:
-			'Yes! The band program takes a significant tour every 3-4 years, with a “mini-tour” on the off years. (With the exception of worldwide pandemic years) The Marching Band travels on day trips to competitions, a weekend long overnight band camp at Walden West in late September, and an overnight trip at the end of the season to Disneyland which gives us a great opportunity to bond with each other and meet students from high schools throughout California.'
-	},
-	{
 		question: 'Does the school provide instruments?',
 		answer:
 			'The school helps with larger, more expensive instruments. Tubas (marching and concert), Euphoniums (Baritones), baritone saxophones, bass clarinets, percussion, etc. are some.  If you have the need for using a smaller instrument due to your financial situation we do have a limited number of smaller instruments for use on a case by case basis.  We do encourage students to purchase a good quality instrument for concert performances. Often students will play these instruments for the rest of their lives in one capacity or another: community groups, churches, synagogues, etc.! It is worth owning a good quality instrument.  If you are planning on upgrading your student’s instrument I would be happy to steer you in the right direction.  I strongly recommend getting advice prior to buying an instrument.'
