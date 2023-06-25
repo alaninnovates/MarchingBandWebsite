@@ -10,7 +10,7 @@
 </script>
 
 <div class="">
-	<Heading>Marching band members travel to all sorts of exotic places!</Heading>
+	<Heading {id}>Marching band members travel to all sorts of exotic places!</Heading>
 	<div class="mt-6 relative flex overflow-x-hidden">
 		<div class="relative flex flex-row-reverse animate-marquee whitespace-nowrap min-w-max h-60">
 			{#each images as image}

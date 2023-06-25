@@ -1,4 +1,8 @@
-<div class="my-10 px-10 flex justify-center">
+<script>
+	export let id = 'parents';
+</script>
+
+<div {id} class="my-10 py-3 px-10 flex justify-center">
 	<div class="grid grid-rows-[5rem_4rem_max-content] grid-cols-[3rem_7rem_max-content]">
 		<img
 			src="/images/vol1.jpg"

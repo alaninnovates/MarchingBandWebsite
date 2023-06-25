@@ -3,7 +3,7 @@
 	export let id = 'join';
 </script>
 
-<div class="flex flex-col justify-center items-center">
+<div {id} class="flex flex-col justify-center items-center">
 	<div class="font-header text-4xl text-center mb-4 underline underline-offset-2">
 		How do I sign up?
 	</div>

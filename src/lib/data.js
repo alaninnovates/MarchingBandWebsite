@@ -44,8 +44,10 @@ const IMAGE_DATA = [
 const NAV_DATA = {
 	LINKS: [
 		{ label: 'Photos', href: '#photos' },
-		// { label: 'Staff', href: '#staff' },
+		{ label: 'Parents', href: '#parents' },
 		{ label: 'News', href: '#news' },
+		{ label: 'Staff', href: '#staff' },
+		{ label: 'FAQ', href: '#faq' },
 		{ label: 'Join us!', href: '#join' }
 		// { label: "Members", src: "/members" },
 	]
