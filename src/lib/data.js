@@ -1,13 +1,46 @@
-const IMAGE_DATA = {
-	IMAGES_LIST: [
-		{ src: '/images/car1.jpeg', alt: 'image 1' },
-		{ src: '/images/car2.jpeg', alt: 'image 2' },
-		{ src: '/images/car3.jpeg', alt: 'image 3' },
-		{ src: '/images/car4.jpeg', alt: 'image 4' },
-		{ src: '/images/car5.jpeg', alt: 'image 5' }
-	]
-};
-
+const IMAGE_DATA = [
+	{
+		src: '/images/gallery/bandroom.jpg',
+		alt: 'image 1',
+		label: 'The band room!'
+	},
+	{
+		src: '/images/gallery/football1.jpg',
+		alt: 'image 2',
+		label: 'Football Games!'
+	},
+	{
+		src: '/images/gallery/football2.jpg',
+		alt: 'image 2'
+	},
+	{
+		src: '/images/gallery/football3.jpg',
+		alt: 'image 2'
+	},
+	{
+		src: '/images/gallery/comp.jpg',
+		alt: 'image 3',
+		label: 'Competitions!'
+	},
+	{
+		src: '/images/gallery/parade.jpg',
+		alt: 'image 4',
+		label: 'Parades!'
+	},
+	{
+		src: '/images/gallery/parade2.webp',
+		alt: 'image 4'
+	},
+	{
+		src: '/images/gallery/parade3.webp',
+		alt: 'image 4'
+	},
+	{
+		src: '/images/gallery/walden.jpeg',
+		alt: 'image 5',
+		label: 'Walden West!'
+	}
+];
 const NAV_DATA = {
 	LINKS: [
 		{ label: 'Photos', href: '#photos' },

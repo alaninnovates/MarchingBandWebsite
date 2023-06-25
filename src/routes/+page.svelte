@@ -10,13 +10,14 @@
 	import ParentVolunteers from '$lib/ParentVolunteers.svelte';
 	import UpcomingSeason from '$lib/UpcomingSeason.svelte';
 	import FAQ from '$lib/FAQ.svelte';
+	import Gallery from '$lib/Gallery.svelte';
 </script>
 
 <Header links={DATA.NAV_DATA.LINKS} />
 <UpcomingSeason />
 <JoinUs />
 <About />
-<Carousel images={DATA.IMAGE_DATA.IMAGES_LIST} />
+<Gallery photos={DATA.IMAGE_DATA} />
 <ParentVolunteers />
 <News articles={DATA.NEWS_STORIES} />
 <StaffPage staff={DATA.STAFF_DATA} />
