@@ -1,8 +1,9 @@
 <script>
-	import Heading from '$lib/Heading.svelte';
+	export let id = 'why';
 </script>
 
 <div
+	{id}
 	class="w-full grid grid-cols-[40%_60%] xl:grid-cols-2 grid-rows-1 bg-mblue mt-10 text-white py-10 overflow-hidden"
 >
 	<div class="col-span-1 flex justify-end items-center">

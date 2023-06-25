@@ -43,6 +43,7 @@ const IMAGE_DATA = [
 ];
 const NAV_DATA = {
 	LINKS: [
+		{ label: 'Why', href: '#why' },
 		{ label: 'Photos', href: '#photos' },
 		{ label: 'Parents', href: '#parents' },
 		{ label: 'News', href: '#news' },
