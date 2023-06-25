@@ -4,10 +4,6 @@ const config = {
 
 	theme: {
 		extend: {
-			backgroundImage: {
-				header: "url('/images/header.png')",
-				winning: "url('/images/winning.png')"
-			},
 			animation: {
 				marquee: 'marquee 30s linear infinite',
 				marquee2: 'marquee2 30s linear infinite'

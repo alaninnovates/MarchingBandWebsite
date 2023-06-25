@@ -1,4 +1,6 @@
 <script>
+	import { base } from '$app/paths';
+
 	import DATA from '$lib/data.js';
 	import Header from '$lib/Header.svelte';
 	import JoinUs from '$lib/JoinUs.svelte';
@@ -14,8 +16,8 @@
 </script>
 
 <svelte:head>
-	<link rel="preload" as="image" href="/images/header.png" />
-	<link rel="preload" as="image" href="/images/winning.png" />
+	<link rel="preload" as="image" href="{base}/images/header.png" />
+	<link rel="preload" as="image" href="{base}/images/winning.png" />
 </svelte:head>
 
 <Header links={DATA.NAV_DATA.LINKS} />

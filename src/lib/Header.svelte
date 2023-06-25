@@ -1,4 +1,6 @@
 <script>
+	import { base } from '$app/paths';
+
 	import Navbar from '$lib/Navbar.svelte';
 
 	/**
@@ -7,7 +9,7 @@
 	export let links = [];
 </script>
 
-<div class="w-full h-[50rem] bg-cover bg-center bg-blend-darken bg-header">
+<div class="w-full h-[50rem] bg-cover bg-center bg-blend-darken bg-[url('/images/header.png')]">
 	<div class="w-full h-full bg-gradient-to-b from-black">
 		<div class=""><Navbar {links} /></div>
 		<div class="flex h-full w-full items-center justify-center pb-20 px-12">

@@ -1,42 +1,44 @@
+import { base } from '$app/paths';
+
 const IMAGE_DATA = [
 	{
-		src: '/images/gallery/bandroom.jpg',
+		src: base + '/images/gallery/bandroom.jpg',
 		alt: 'image 1',
 		label: 'The band room!'
 	},
 	{
-		src: '/images/gallery/football1.jpg',
+		src: base + '/images/gallery/football1.jpg',
 		alt: 'image 2',
 		label: 'Football Games!'
 	},
 	{
-		src: '/images/gallery/football2.jpg',
+		src: base + '/images/gallery/football2.jpg',
 		alt: 'image 2'
 	},
 	{
-		src: '/images/gallery/football3.jpg',
+		src: base + '/images/gallery/football3.jpg',
 		alt: 'image 2'
 	},
 	{
-		src: '/images/gallery/comp.jpg',
+		src: base + '/images/gallery/comp.jpg',
 		alt: 'image 3',
 		label: 'Competitions!'
 	},
 	{
-		src: '/images/gallery/parade.jpg',
+		src: base + '/images/gallery/parade.jpg',
 		alt: 'image 4',
 		label: 'Parades!'
 	},
 	{
-		src: '/images/gallery/parade2.webp',
+		src: base + '/images/gallery/parade2.webp',
 		alt: 'image 4'
 	},
 	{
-		src: '/images/gallery/parade3.webp',
+		src: base + '/images/gallery/parade3.webp',
 		alt: 'image 4'
 	},
 	{
-		src: '/images/gallery/walden.jpeg',
+		src: base + '/images/gallery/walden.jpeg',
 		alt: 'image 5',
 		label: 'Walden West!'
 	}
@@ -90,7 +92,7 @@ const STAFF_DATA = [
 		role: 'Director',
 		blurb: '',
 		email: 'ted.ferrucci@mvla.net',
-		src: '/images/TedFerrucci.jpg'
+		src: base + '/images/TedFerrucci.jpg'
 	}
 ];
 

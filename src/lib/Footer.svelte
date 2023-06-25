@@ -1,3 +1,7 @@
+<script>
+	import { base } from '$app/paths';
+</script>
+
 <footer
 	class="w-full flex-col items-center justify-center text-center bg-black text-white mt-10 p-5"
 >
@@ -57,7 +61,7 @@
 		<!-- US Bands -->
 		<div class="px-1">
 			<a href="https://usbands.org/units/details.php?ID=1083">
-				<img src="/images/usbands.png" alt="US Bands Logo" class="w-[20px] h-[20px]" />
+				<img src="{base}/images/usbands.png" alt="US Bands Logo" class="w-[20px] h-[20px]" />
 			</a>
 		</div>
 		<!-- LAHS Website -->
@@ -65,7 +69,7 @@
 			<a
 				href="https://lahs.mvla.net/ParentsStudents/Parent-Booster-Organizations/Music-Boosters/index.html"
 			>
-				<img src="/images/lahseagle.png" alt="LAHS Eagle Logo" class="w-[20px] h-[20px]" />
+				<img src="{base}/images/lahseagle.png" alt="LAHS Eagle Logo" class="w-[20px] h-[20px]" />
 			</a>
 		</div>
 	</div>

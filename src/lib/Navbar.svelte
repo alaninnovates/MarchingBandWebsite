@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import NavbarLink from '$lib/NavbarLink.svelte';
 
 	/**
@@ -9,7 +10,7 @@
 
 <nav class="flex items-center justify-between flex-wrap p-4">
 	<div class="text-white">
-		<a href="/">
+		<a href="{base}/">
 			<!-- Put actual logo in here -->
 			<svg
 				xmlns="http://www.w3.org/2000/svg"

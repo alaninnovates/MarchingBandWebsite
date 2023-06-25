@@ -1,21 +1,22 @@
 <script>
+	import { base } from '$app/paths';
 	export let id = 'parents';
 </script>
 
 <div {id} class="my-24 py-3 px-10 flex justify-center">
 	<div class="grid grid-rows-[5rem_4rem_max-content] grid-cols-[3rem_7rem_max-content]">
 		<img
-			src="/images/vol1.jpg"
+			src="{base}/images/vol1.jpg"
 			alt="Volunteers serving food at a competition."
 			class="w-64 h-44 object-cover col-start-1 row-start-1 col-span-3 z-10 hover:z-40 hover:drop-shadow-md"
 		/>
 		<img
-			src="/images/vol2.jpg"
+			src="{base}/images/vol2.jpg"
 			alt="Lunch display at comps!"
 			class="w-64 h-44 object-cover col-start-3 row-start-2 col-span-3 z-30 hover:z-40 hover:drop-shadow-md"
 		/>
 		<img
-			src="/images/vol3.jpg"
+			src="{base}/images/vol3.jpg"
 			alt="Volunteers pulling instruments onto field."
 			class="w-64 h-44 object-cover col-start-2 row-start-3 col-span-3 z-20 hover:z-40 hover:drop-shadow-md"
 		/>

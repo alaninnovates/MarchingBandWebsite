@@ -1,4 +1,6 @@
 <script>
+	import { base } from '$app/paths';
+
 	export let src = '/images/winning.png';
 </script>
 
@@ -9,7 +11,9 @@
 			Become a part of the award winning LAHS Eagle Marching Band and Color Guard today!
 		</div>
 	</div>
-	<div class="clipped bg-cover bg-winning inline-block h-96 w-[50%] max-w-4xl bg-center">
+	<div
+		class="clipped bg-cover bg-[url('/images/winning.png')] inline-block h-96 w-[50%] max-w-4xl bg-center"
+	>
 		<!-- <img {src} class="object-cover" alt="Drum majors and color guard stand in front of trophies." /> -->
 	</div>
 </div>

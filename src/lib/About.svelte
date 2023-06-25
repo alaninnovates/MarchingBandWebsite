@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	export let id = 'why';
 </script>
 
@@ -9,7 +10,7 @@
 	<div class="col-span-1 flex justify-end items-center">
 		<img
 			class="h-full max-h-[41rem] object-cover"
-			src="/images/whymarchingband.jpg"
+			src="{base}/images/whymarchingband.jpg"
 			alt="Group selfie of marching band members."
 		/>
 	</div>
