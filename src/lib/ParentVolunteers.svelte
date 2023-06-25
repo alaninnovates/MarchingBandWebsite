@@ -3,8 +3,10 @@
 	export let id = 'parents';
 </script>
 
-<div {id} class="my-24 py-3 px-10 flex justify-center">
-	<div class="grid grid-rows-[5rem_4rem_max-content] grid-cols-[3rem_7rem_max-content]">
+<div {id} class="my-24 py-3 px-5 md:px-10 flex flex-col items-center md:flex-row justify-center">
+	<div
+		class="grid grid-rows-[1rem_1rem_min-content] md:grid-rows-[5rem_4rem_max-content] grid-cols-[1rem_1 rem_max-content] md:grid-cols-[3rem_7rem_max-content]"
+	>
 		<img
 			src="{base}/images/vol1.jpg"
 			alt="Volunteers serving food at a competition."
@@ -21,9 +23,9 @@
 			class="w-64 h-44 object-cover col-start-2 row-start-3 col-span-3 z-20 hover:z-40 hover:drop-shadow-md"
 		/>
 	</div>
-	<div class="flex justify-center items-center ms-10 lg:ms-20">
+	<div class="flex justify-center items-center md:ms-10 lg:ms-20 text-center md:text-left">
 		<div>
-			<div class="font-header text-4xl italic pb-5">
+			<div class="font-header text-4xl italic pb-5 pt-5 md:pt-0">
 				The success of marching band is made possible by our amazing parent volunteers.
 			</div>
 			<div class="text-lg">
