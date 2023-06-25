@@ -12,10 +12,6 @@ const IMAGE_DATA = [
 		label: 'Football Games!'
 	},
 	{
-		src: base + '/images/gallery/football2.jpg',
-		alt: 'image 2'
-	},
-	{
 		src: base + '/images/gallery/football3.jpg',
 		alt: 'image 2'
 	},
@@ -25,16 +21,16 @@ const IMAGE_DATA = [
 		label: 'Competitions!'
 	},
 	{
+		src: base + '/images/gallery/comp2.png',
+		alt: 'image 2'
+	},
+	{
 		src: base + '/images/gallery/parade.jpg',
 		alt: 'image 4',
 		label: 'Parades!'
 	},
 	{
 		src: base + '/images/gallery/parade2.webp',
-		alt: 'image 4'
-	},
-	{
-		src: base + '/images/gallery/parade3.webp',
 		alt: 'image 4'
 	},
 	{
