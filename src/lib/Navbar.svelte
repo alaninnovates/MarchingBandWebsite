@@ -6,7 +6,15 @@
 	 * @type {any[]}
 	 */
 	export let links = [];
+
+	let screenSize = 0;
+	let menuExpanded = false;
+	function toggleExpanded() {
+		menuExpanded = !menuExpanded;
+	}
 </script>
+
+<svelte:window bind:innerWidth={screenSize} />
 
 <nav class="flex items-center justify-between flex-wrap p-4">
 	<div class="text-white">
@@ -28,10 +36,10 @@
 			</svg>
 		</a>
 	</div>
-	<div class="block hidden">
+	<div class="block md:hidden">
 		<button
-			class="flex items-center px-3 py-2 border rounded text-black border-black hover:text-gray-600 hover:border-gray-600"
-			id="menu-button"
+			class="flex items-center px-3 py-2 border rounded text-white border-white hover:text-gray-600 hover:border-gray-600"
+			on:click={toggleExpanded}
 		>
 			<svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"
 				><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" /></svg
@@ -39,8 +47,10 @@
 		</button>
 	</div>
 	<div>
-		{#each links as link}
-			<NavbarLink href={link.href}>{link.label}</NavbarLink>
-		{/each}
+		{#if screenSize >= 768}
+			{#each links as link}
+				<NavbarLink href={link.href}>{link.label}</NavbarLink>
+			{/each}
+		{/if}
 	</div>
 </nav>
