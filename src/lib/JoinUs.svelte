@@ -7,7 +7,7 @@
 
 <div {id} class="flex flex-col justify-center items-center py-16">
 	<div class="font-header text-4xl text-center mb-4 underline underline-offset-2">
-		How do I join?
+		How do I sign up?
 	</div>
 	<div class="w-full max-w-4xl flex flex-col justify-center items-center px-10 text-xl text-center">
 		<div class="">It’s easy! We will be hosting Band Camp for the 2023-2024 school year from</div>
@@ -34,7 +34,7 @@
 				</a>
 			</div>
 		</div>
-		<div>Come join to see if marching band is right for you! We look forward to meeting you!</div>
+		<div>Come visit to see if marching band is right for you!</div>
 
 		<div class="my-4">
 			For more updates,
