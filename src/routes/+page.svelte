@@ -15,11 +15,6 @@
 	import Gallery from '$lib/Gallery.svelte';
 </script>
 
-<svelte:head>
-	<link rel="preload" as="image" href="{base}/images/header.png" />
-	<link rel="preload" as="image" href="{base}/images/winning.png" />
-</svelte:head>
-
 <Header links={DATA.NAV_DATA.LINKS} />
 <UpcomingSeason />
 <JoinUs />
