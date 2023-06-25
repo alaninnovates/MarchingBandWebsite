@@ -12,7 +12,10 @@ const config = {
 			pages: 'build',
 			assets: 'build',
 			xfallback: null
-		})
+		}),
+		paths: {
+			base: process.env.NODE_ENV === 'production' ? '/sveltekit-github-pages' : ''
+		}
 	},
 
 	preprocess: [
