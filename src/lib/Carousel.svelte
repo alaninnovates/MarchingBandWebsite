@@ -10,17 +10,19 @@
 </script>
 
 <div class="">
-	<Heading {id}>Photos</Heading>
-	<div class="relative flex overflow-x-hidden">
-		<div class="relative flex animate-marquee whitespace-nowrap min-w-max h-60">
+	<Heading>Marching band members travel to all sorts of exotic places!</Heading>
+	<div class="mt-6 relative flex overflow-x-hidden">
+		<div class="relative flex flex-row-reverse animate-marquee whitespace-nowrap min-w-max h-60">
 			{#each images as image}
-				<CarouselImage src={image.src} alt={image.alt} />
+				<CarouselImage {...image} />
 			{/each}
 		</div>
 
-		<div class="absolute top-0 flex animate-marquee2 whitespace-nowrap min-w-max h-60">
+		<div
+			class="absolute top-0 flex flex-row-reverse animate-marquee2 whitespace-nowrap min-w-max h-60"
+		>
 			{#each images as image}
-				<CarouselImage src={image.src} alt={image.alt} />
+				<CarouselImage {...image} />
 			{/each}
 		</div>
 	</div>

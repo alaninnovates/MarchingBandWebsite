@@ -13,11 +13,17 @@
 	import Gallery from '$lib/Gallery.svelte';
 </script>
 
+<svelte:head>
+	<link rel="preload" as="image" href="/images/header.png" />
+	<link rel="preload" as="image" href="/images/winning.png" />
+</svelte:head>
+
 <Header links={DATA.NAV_DATA.LINKS} />
 <UpcomingSeason />
 <JoinUs />
 <About />
-<Gallery photos={DATA.IMAGE_DATA} />
+<!-- <Gallery photos={DATA.IMAGE_DATA} /> -->
+<Carousel images={DATA.IMAGE_DATA} />
 <ParentVolunteers />
 <News articles={DATA.NEWS_STORIES} />
 <StaffPage staff={DATA.STAFF_DATA} />
