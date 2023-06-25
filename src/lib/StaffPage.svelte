@@ -9,9 +9,11 @@
 	export let id = 'staff';
 </script>
 
-<Heading {id}>Meet the staff</Heading>
-<div class="flex justify-center items-center">
-	{#each staff as staffMember}
-		<StaffCard {...staffMember} />
-	{/each}
+<div class="my-16">
+	<Heading {id}>Meet the staff</Heading>
+	<div class="flex justify-center items-center">
+		{#each staff as staffMember}
+			<StaffCard {...staffMember} />
+		{/each}
+	</div>
 </div>

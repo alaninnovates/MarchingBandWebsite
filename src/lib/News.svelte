@@ -9,7 +9,7 @@
 	export let id = 'news';
 </script>
 
-<div>
+<div class="mt-24">
 	<Heading {id}>See what people are saying...</Heading>
 	<div class="flex flex-wrap justify-center">
 		{#each articles as article}

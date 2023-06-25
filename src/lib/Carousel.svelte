@@ -9,7 +9,7 @@
 	export let id = 'photos';
 </script>
 
-<div class="">
+<div class="mt-16">
 	<Heading {id}>Marching band members travel to all sorts of exotic places!</Heading>
 	<div class="mt-6 relative flex overflow-x-hidden">
 		<div class="relative flex flex-row-reverse animate-marquee whitespace-nowrap min-w-max h-60">
