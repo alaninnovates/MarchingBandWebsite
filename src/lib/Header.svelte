@@ -10,14 +10,14 @@
 </script>
 
 <div class="w-full h-[50rem] bg-cover bg-center bg-blend-darken bg-[url('/images/header.png')]">
-	<div class="w-full h-full bg-gradient-to-b from-black">
-		<div class=""><Navbar {links} /></div>
-		<div class="flex h-full w-full items-center justify-center pb-20 px-12">
+	<div class="flex flex-col w-full h-full bg-gradient-to-b from-black">
+		<Navbar {links} />
+		<div class="flex h-full w-full items-center justify-center px-12">
 			<div class="text-center p-10">
 				<span class="block text-3xl text-white font-extrabold font-display italic pb-3">
 					Los Altos High School
 				</span>
-				<span class="block text-7xl text-white font-extrabold font-display">
+				<span class="block text-6xl md:text-7xl text-white font-extrabold font-display">
 					Marching Band and Color Guard
 				</span>
 				<br />

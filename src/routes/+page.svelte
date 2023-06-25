@@ -24,7 +24,6 @@
 <UpcomingSeason />
 <JoinUs />
 <About />
-<!-- <Gallery photos={DATA.IMAGE_DATA} /> -->
 <Carousel images={DATA.IMAGE_DATA} />
 <ParentVolunteers />
 <News articles={DATA.NEWS_STORIES} />
