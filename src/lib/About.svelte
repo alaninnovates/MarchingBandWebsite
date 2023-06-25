@@ -3,6 +3,10 @@
 	export let id = 'why';
 </script>
 
+<svelte:head>
+	<link rel="preload" as="image" href="{base}/images/whymarchingband.jpg" />
+</svelte:head>
+
 <div
 	{id}
 	class="w-full grid grid-cols-[40%_60%] xl:grid-cols-2 grid-rows-1 bg-mblue mt-10 text-white py-10 overflow-hidden"
