@@ -19,8 +19,8 @@
 					Marching Band and Color Guard
 				</span>
 				<br />
-				<a href="#join" class="inline-block rounded-md bg-mblue text-white px-5 py-3 mt-3"
-					>Sign Up</a
+				<a href="#join" class="inline-block rounded-md outline text-white px-5 py-3 mt-3"
+					>Join us!</a
 				>
 			</div>
 		</div>
