@@ -11,7 +11,7 @@
 
 <div class="w-full max-w-4xl mb-4">
 	<div class="text-black flex justify-between items-center mb-4" on:click={toggleExpand}>
-		<div class="font-bold">{question}</div>
+		<div class="font-bold me-3">{question}</div>
 
 		<!-- plus button -->
 		<div hidden={expanded}>
