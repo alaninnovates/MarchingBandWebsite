@@ -67,7 +67,7 @@ const NEWS_STORIES = [
 		website: 'Midpeninsula Post',
 		date: new Date('2022-10-30'),
 		image_src:
-			'https://i0.wp.com/midpenpost.org/wp-content/uploads/2022/10/6.jpg?fit=5043,3362&ssl=1',
+			'https://i0.wp.com/midpenpost.org/wp-content/uploads/2022/10/6.jpg?fit=300,200&ssl=1',
 		image_alt: 'Marching band marches downtown.',
 		href: 'https://midpenpost.org/2022/10/30/photos-homecoming-at-los-altos-high-2/'
 	},
@@ -76,7 +76,7 @@ const NEWS_STORIES = [
 		website: 'Los Altos Town Crier',
 		date: new Date('2021-11-02'),
 		image_src:
-			'https://bloximages.newyork1.vip.townnews.com/losaltosonline.com/content/tncms/assets/v3/editorial/7/ef/7ef21926-3c3e-11ec-ad9c-63459ffcfc52/6181da5a3770c.image.jpg?resize=667,500',
+			'https://bloximages.newyork1.vip.townnews.com/losaltosonline.com/content/tncms/assets/v3/editorial/7/ef/7ef21926-3c3e-11ec-ad9c-63459ffcfc52/6181da5a3770c.image.jpg?resize=267,200',
 		image_alt: 'Color guard members swings flag.',
 		href: 'https://www.losaltosonline.com/schools/lahs-parades-downtown/article_01c80cfe-3c3d-11ec-999f-7b5865001477.html'
 	}
