@@ -9,9 +9,9 @@
 
 <div
 	{id}
-	class="w-full grid grid-cols-[40%_60%] xl:grid-cols-2 grid-rows-1 bg-mblue mt-10 text-white py-10 overflow-hidden"
+	class="w-full sm:grid sm:grid-cols-[40%_60%] xl:grid-cols-2 md:grid-rows-1 bg-mblue mt-10 text-white py-10 overflow-hidden"
 >
-	<div class="col-span-1 flex justify-end items-center">
+	<div class="mx-8 mb-3 sm:m-0 sm:col-span-1 flex justify-end items-center">
 		<img
 			class="h-full max-h-[41rem] object-cover"
 			src="{base}/images/whymarchingband.jpg"
