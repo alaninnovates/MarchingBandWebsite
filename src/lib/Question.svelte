@@ -1,4 +1,5 @@
 <script>
+	import { slide } from 'svelte/transition';
 	export let question = '';
 	export let answer = '';
 
@@ -48,6 +49,8 @@
 			</svg>
 		</div>
 	</div>
-	<div class="text-sm text-gray-600 me-12 mb-3" hidden={!expanded}>{answer}</div>
+	{#if expanded}
+		<div class="text-sm text-gray-600 me-12 mb-3" transition:slide>{answer}</div>
+	{/if}
 	<hr />
 </div>

@@ -1,12 +1,11 @@
 <script>
+	import Heading from './Heading.svelte';
+	import Question from './Question.svelte';
 	/**
 	 * @type {any[]}
 	 */
 	export let questions = [];
 	export let id = 'faq';
-
-	import Heading from './Heading.svelte';
-	import Question from './Question.svelte';
 </script>
 
 <div class="mb-8"><Heading {id}>FAQ</Heading></div>
