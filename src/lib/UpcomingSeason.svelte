@@ -12,7 +12,7 @@
 		</div>
 	</div>
 	<div
-		class="clipped bg-cover bg-[url('/images/sunset.jpg')] inline-block h-48 md:h-96 md:w-[50%] max-w-4xl bg-center"
+		class="clipped bg-cover bg-[url('/images/sunset.webp')] inline-block h-48 md:h-96 md:w-[50%] max-w-4xl bg-center"
 	>
 		<!-- <img {src} class="object-cover" alt="Drum majors and color guard stand in front of trophies." /> -->
 	</div>

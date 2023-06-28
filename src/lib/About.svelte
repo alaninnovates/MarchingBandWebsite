@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<link rel="preload" as="image" href="{base}/images/whymarchingband.jpg" />
+	<link rel="preload" as="image" href="{base}/images/whymarchingband.webp" />
 </svelte:head>
 
 <div
@@ -14,7 +14,7 @@
 	<div class="mx-8 mb-3 sm:m-0 sm:col-span-1 flex justify-end items-center">
 		<img
 			class="h-full max-h-[41rem] object-cover"
-			src="{base}/images/whymarchingband.jpg"
+			src="{base}/images/whymarchingband.webp"
 			alt="Group selfie of marching band members."
 		/>
 	</div>
@@ -31,6 +31,7 @@
 			<div class="mt-3 italic">But don’t just take our word for it:</div>
 			<div class="pb-[56.25%] relative">
 				<iframe
+					loading="lazy"
 					width="100%"
 					height="100%"
 					src="https://www.youtube-nocookie.com/embed/CuHgPlsjy2E"

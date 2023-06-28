@@ -10,7 +10,7 @@
 </script>
 
 <div
-	class="w-full max-h-screen h-[50rem] bg-cover bg-center bg-blend-darken bg-[url('/images/header.png')]"
+	class="w-full max-h-screen h-[50rem] bg-cover bg-center bg-blend-darken bg-[url('/images/header.webp')]"
 >
 	<div class="flex flex-col w-full h-full bg-gradient-to-b from-black">
 		<Navbar {links} />
