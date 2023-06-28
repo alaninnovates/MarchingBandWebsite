@@ -3,39 +3,39 @@ import { base } from '$app/paths';
 const IMAGE_DATA = [
 	{
 		src: base + '/images/gallery/bandroom.jpg',
-		alt: 'image 1',
+		alt: 'Marching band members watch in a demonstration in the band room.',
 		label: 'The band room!'
 	},
 	{
 		src: base + '/images/gallery/football1.jpg',
-		alt: 'image 2',
+		alt: 'Marching band plays music in the foodball stands.',
 		label: 'Football Games!'
 	},
 	{
 		src: base + '/images/gallery/football3.jpg',
-		alt: 'image 2'
+		alt: 'Marching band performs shows on football field.'
 	},
 	{
 		src: base + '/images/gallery/comp.jpg',
-		alt: 'image 3',
+		alt: 'Members eat lunch in front of bus.',
 		label: 'Competitions!'
 	},
 	{
 		src: base + '/images/gallery/comp2.png',
-		alt: 'image 2'
+		alt: 'Guard captains and drum majors stand behind trophies.'
 	},
 	{
 		src: base + '/images/gallery/parade.jpg',
-		alt: 'image 4',
+		alt: 'Band members in magenta shirts parade in Downtown.',
 		label: 'Parades!'
 	},
 	{
 		src: base + '/images/gallery/parade2.webp',
-		alt: 'image 4'
+		alt: 'Band members in blue shirts parade in Downtown.'
 	},
 	{
 		src: base + '/images/gallery/walden.jpeg',
-		alt: 'image 5',
+		alt: 'Members practice on a rural field.',
 		label: 'Walden West!'
 	}
 ];
