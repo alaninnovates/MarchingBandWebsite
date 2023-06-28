@@ -1,5 +1,6 @@
 <script>
 	import { base } from '$app/paths';
+	import { slide } from 'svelte/transition';
 	import NavbarLink from '$lib/NavbarLink.svelte';
 
 	/**
@@ -10,7 +11,6 @@
 	let screenSize = 0;
 	let menuExpanded = false;
 	function toggleExpanded() {
-		console.log('hello');
 		menuExpanded = !menuExpanded;
 	}
 </script>
@@ -39,15 +39,17 @@
 		</a>
 	</div>
 	<!-- Nav Links -->
-	<div
-		class="absolute sm:relative w-48 sm:w-auto sm:h-auto top-0 right-0 px-3 bg-black sm:bg-transparent z-0 rounded-bl-lg"
-	>
-		{#if screenSize >= 640 || menuExpanded}
+	{#if screenSize >= 640 || menuExpanded}
+		<div
+			class="absolute sm:relative w-48 sm:w-auto sm:h-auto top-0 right-0 px-3 bg-black sm:bg-transparent z-0 rounded-bl-xl"
+			transition:slide
+		>
 			{#each links as link}
 				<NavbarLink bind:menuExpanded href={link.href}>{link.label}</NavbarLink>
 			{/each}
-		{/if}
-	</div>
+		</div>
+	{/if}
+
 	<!-- Button -->
 	<div class="block sm:hidden z-10">
 		<button
