@@ -17,6 +17,7 @@
 <svelte:window bind:innerWidth={screenSize} />
 
 <nav class="flex items-center justify-between flex-wrap p-4">
+	<!-- Logo -->
 	<div class="text-white">
 		<a href="{base}/">
 			<!-- Put actual logo in here -->
@@ -36,21 +37,25 @@
 			</svg>
 		</a>
 	</div>
-	<div class="block md:hidden">
+	<!-- Nav Links -->
+	<div
+		class="absolute sm:relative w-48 sm:w-auto sm:h-auto top-0 right-0 px-3 bg-black sm:bg-transparent z-0 rounded-bl-lg"
+	>
+		{#if screenSize >= 640 || menuExpanded}
+			{#each links as link}
+				<NavbarLink href={link.href}>{link.label}</NavbarLink>
+			{/each}
+		{/if}
+	</div>
+	<!-- Button -->
+	<div class="block sm:hidden z-10">
 		<button
-			class="flex items-center px-3 py-2 border rounded text-white border-white hover:text-gray-600 hover:border-gray-600"
+			class="flex items-center px-3 py-2 border rounded text-white border-white hover:text-gray-100 hover:border-gray-100"
 			on:click={toggleExpanded}
 		>
 			<svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"
 				><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" /></svg
 			>
 		</button>
-	</div>
-	<div>
-		{#if screenSize >= 768}
-			{#each links as link}
-				<NavbarLink href={link.href}>{link.label}</NavbarLink>
-			{/each}
-		{/if}
 	</div>
 </nav>
