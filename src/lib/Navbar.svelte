@@ -10,6 +10,7 @@
 	let screenSize = 0;
 	let menuExpanded = false;
 	function toggleExpanded() {
+		console.log('hello');
 		menuExpanded = !menuExpanded;
 	}
 </script>
@@ -43,7 +44,7 @@
 	>
 		{#if screenSize >= 640 || menuExpanded}
 			{#each links as link}
-				<NavbarLink href={link.href}>{link.label}</NavbarLink>
+				<NavbarLink bind:menuExpanded href={link.href}>{link.label}</NavbarLink>
 			{/each}
 		{/if}
 	</div>

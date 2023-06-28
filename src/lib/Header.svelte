@@ -9,7 +9,9 @@
 	export let links = [];
 </script>
 
-<div class="w-full h-[50rem] bg-cover bg-center bg-blend-darken bg-[url('/images/header.png')]">
+<div
+	class="w-full max-h-screen h-[50rem] bg-cover bg-center bg-blend-darken bg-[url('/images/header.png')]"
+>
 	<div class="flex flex-col w-full h-full bg-gradient-to-b from-black">
 		<Navbar {links} />
 		<div class="flex h-full w-full items-center justify-center px-12">
