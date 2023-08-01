@@ -1,10 +1,8 @@
 <script>
-	import Heading from './Heading.svelte';
-
-	export let id = 'calendar';
+	export let id = 'schedule';
 </script>
 
-<div class="flex flex-col md:flex-row py-16 md:py-0 px-10 justify-center">
+<div {id} class="flex flex-col md:flex-row my-16 md:py-0 px-10 justify-center">
 	<div class="flex flex-col h-full my-auto items-center text-lg md:me-10">
 		<a
 			href="https://docs.google.com/document/d/18Y2kF8CL9y-v4MYUrCNjVQOOqNp9eFm5XMh3J7e1I7E/edit"
