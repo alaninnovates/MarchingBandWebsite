@@ -41,7 +41,7 @@
 				For more updates, <a
 					href="https://docs.google.com/forms/d/e/1FAIpQLSdZBQR55lVr0-gf81fvLGNkAxfP7ftQ6cFh5LSI4qyr-VcwsA/viewform"
 					target="_blank"
-					class="underline text-blue-500">join our mailing list!</a
+					class="link">join our mailing list!</a
 				>
 			</p>
 			<a href="mailto:{googleGroupEmail}" class="ms-2 text-blue-500">

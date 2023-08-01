@@ -12,12 +12,17 @@
 	import ParentVolunteers from '$lib/ParentVolunteers.svelte';
 	import UpcomingSeason from '$lib/UpcomingSeason.svelte';
 	import FAQ from '$lib/FAQ.svelte';
-	import Gallery from '$lib/Gallery.svelte';
+	import EmbeddedSite from '$lib/EmbeddedSite.svelte';
+	import Schedule from '$lib/Schedule.svelte';
 </script>
 
 <Header links={DATA.NAV_DATA.LINKS} />
 <UpcomingSeason />
 <JoinUs />
+<!-- <EmbeddedSite
+	src="https://docs.google.com/document/d/18Y2kF8CL9y-v4MYUrCNjVQOOqNp9eFm5XMh3J7e1I7E/edit?usp=sharing&rm=minimal"
+/> -->
+<Schedule />
 <About />
 <Carousel images={DATA.IMAGE_DATA} />
 <ParentVolunteers />
