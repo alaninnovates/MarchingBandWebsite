@@ -4,7 +4,7 @@ const IMAGE_DATA = [
 	{
 		src: base + '/images/gallery/bandroom.webp',
 		alt: 'Marching band members watch in a demonstration in the band room.',
-		label: 'The band room!'
+		label: 'The Band Room!'
 	},
 	{
 		src: base + '/images/gallery/football1.webp',

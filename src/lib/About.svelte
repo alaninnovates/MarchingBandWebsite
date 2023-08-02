@@ -20,7 +20,7 @@
 	</div>
 	<div class="mx-8 flex justify-start items-center min-w-min">
 		<div class="max-w-3xl">
-			<div class="text-2xl font-header mb-3">Why marching band?</div>
+			<div class="text-4xl font-header mb-3">Why marching band?</div>
 			<div>
 				The marching band community is a welcoming one, and anyone who joins soon becomes a part of
 				our diverse and supportive student network. Through band, students are able to bond with
@@ -28,7 +28,7 @@
 				not only develop instrumental skills, but also learn the importance of teamwork, as well as
 				what it takes to produce an entire field show. (Plus, you’ll get some PE credit* out of it!)
 			</div>
-			<div class="mt-3 italic">But don’t just take our word for it:</div>
+			<div class="mt-6 italic mb-4">But don’t just take our word for it:</div>
 			<div class="pb-[56.25%] relative">
 				<iframe
 					loading="lazy"
