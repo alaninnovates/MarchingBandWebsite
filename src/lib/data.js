@@ -105,6 +105,11 @@ const QUESTIONS_DATA = [
 			'YES! In fact, most of our students are involved in sports or other co- curricular activities. We encourage you to participate in a variety of co-curricular activities. No matter what activities you pursue, you must keep an accurate schedule and iron out any conflicts that may arise. We have a systematic approach to help you with this, but it is up to you to keep your schedule straight, for the good of the band and for the good of your other activities. With a little give and take, most things work out just fine. We have or have had students involved in every sport on campus. Additionally, any college or university in the country will attest to the fact that the busiest students are the most successful students. Again, structure and discipline work!'
 	},
 	{
+		question: 'Do I need to know how to play an instrument or have prior experience marching?',
+		answer:
+			"Nope! You can come with as little or as much experience as you like and we'll help teach you the rest! Most members join with no marching experience. There are also positions in color guard for those who do not want to play an instrument."
+	},
+	{
 		question: 'Do I need to be in marching band and concert band (or another ensemble)?',
 		answer:
 			'It is strongly encouraged that all members of the marching band are also enrolled in Concert Band or another year long instrumental music ensemble.  Since marching band is only a semester-long class that  ends in early December there would be a gap of 8-9 months between the end of one marching band season and the beginning of the next season.  As we have all experienced with COVID distance learning, not playing an instrument everyday or several days a week leads to regression in playing abilities, physical fitness, stamina, and social and emotional development. Many students who think that they only want to be in marching band or that they won’t have time to be in two band classes ask to join a year long class at the beginning of the second semester or a few weeks into the new school year.'
