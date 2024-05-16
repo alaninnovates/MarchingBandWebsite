@@ -18,8 +18,8 @@
 <Header links={DATA.NAV_DATA.LINKS} />
 <UpcomingSeason />
 <JoinUs />
-<Schedule />
 <About />
+<Schedule />
 <Carousel images={DATA.IMAGE_DATA} />
 <ParentVolunteers />
 <News articles={DATA.NEWS_STORIES} />

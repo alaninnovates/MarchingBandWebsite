@@ -25,18 +25,31 @@ const IMAGE_DATA = [
 		alt: 'Guard captains and drum majors stand behind trophies.'
 	},
 	{
+		src: base + '/images/gallery/comp3.jpg',
+		alt: 'Pit and color guard performs.'
+	},
+	{
 		src: base + '/images/gallery/parade.webp',
 		alt: 'Band members in magenta shirts parade in Downtown.',
 		label: 'Parades!'
 	},
 	{
-		src: base + '/images/gallery/parade2.webp',
+		src: base + '/images/gallery/parade2.jpg',
 		alt: 'Band members in blue shirts parade in Downtown.'
 	},
 	{
-		src: base + '/images/gallery/walden.webp',
+		src: base + '/images/gallery/parade3.jpg',
+		alt: 'Band members parade in the Festival of Lights.'
+	},
+	{
+		src: base + '/images/gallery/walden.jpg',
 		alt: 'Members practice on a rural field.',
 		label: 'Walden West!'
+	},
+	{
+		src: base + '/images/gallery/walden2.jpg',
+		alt: 'Members demonstrate choreo at Walden West.',
+		label: ''
 	}
 ];
 const NAV_DATA = {
@@ -54,6 +67,25 @@ const NAV_DATA = {
 };
 
 const NEWS_STORIES = [
+	{
+		title: 'LAHS marching band students receive Marine Corps award',
+		website: 'The Talon',
+		date: new Date('2023-12-19'),
+		image_src:
+			'https://lahstalon.org/wp-content/uploads/2023/12/IMG_6974-e1703018650351-900x1200.png',
+		image_alt:
+			'Ashley Tumacder (left) and senior Rom Zuckerman (right) receive the Semper Fidelis Award from a Marine Corps Officer.',
+		href: 'https://lahstalon.org/lahs-marching-band-students-receive-marine-corps-award/'
+	},
+	{
+		title: 'Marching Band draws the curtain on this season’s championships',
+		website: 'The Talon',
+		date: new Date('2023-12-04'),
+		image_src: 'https://lahstalon.org/wp-content/uploads/2023/12/marching.png',
+		image_alt:
+			'LAHS Marching Band and Colorguard at the WBA Regional Championships at James Logan High School.',
+		href: 'https://lahstalon.org/marching-band-draws-the-curtain-on-this-seasons-championships/'
+	},
 	{
 		title: 'Los Altos Festival of Lights 2022: A night in pictures',
 		website: 'Los Altos Town Crier',

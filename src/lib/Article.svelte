@@ -7,7 +7,7 @@
 	export let href = '';
 </script>
 
-<div class="mt-3 inline-block w-60 overflow-clip mx-5">
+<div class="inline-block w-60 overflow-clip">
 	<a {href}>
 		<div class="w-full h-40 object-cover overflow-hidden">
 			<img src={image_src} alt={image_alt} />

@@ -29,12 +29,7 @@
 				The success of marching band is made possible by our amazing parent volunteers.
 			</div>
 			<div class="text-lg">
-				For more info on the LAHS Instrumental Music Boosters, click <a
-					href="https://lahs.mvla.net/ParentsStudents/Parent-Booster-Organizations/Music-Boosters/index.html"
-					class="text-blue-500 underline">here</a
-				>.
-				<br />
-				Or contact Chris Hondl at
+				For more info on the LAHS Instrumental Music Boosters, contact Chris Hondl at
 				<a href="mailto:chondl@gmail.com" class="text-blue-500 underline">chondl@gmail.com</a>
 			</div>
 		</div>

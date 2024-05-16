@@ -10,9 +10,9 @@
 		How do I sign up?
 	</div>
 	<div class="w-full max-w-4xl flex flex-col justify-center items-center px-10 text-xl text-center">
-		<div class="">It’s easy! We will be hosting Band Camp for the 2023-2024 school year from</div>
+		<div class="">It’s easy! We will be hosting Band Camp for the 2024-25 school year from</div>
 		<div class="flex font-bold mb-2">
-			<div class="me-2">August 3rd - 5th.</div>
+			<div class="me-2">Monday, August 5th - Saturday, August 10th.</div>
 			<div class="text-blue-500">
 				<a
 					href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20230803%2F20230806&location=Los%20Altos%20High%20School&text=LAHS%20Marching%20Band%20Camp"
