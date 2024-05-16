@@ -15,7 +15,7 @@
 			<div class="me-2">Monday, August 5th - Saturday, August 10th.</div>
 			<div class="text-blue-500">
 				<a
-					href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20230803%2F20230806&location=Los%20Altos%20High%20School&text=LAHS%20Marching%20Band%20Camp"
+					href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240805%2F20240811&location=Los%20Altos%20High%20School&text=LAHS%20Marching%20Band%20Camp"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
