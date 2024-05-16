@@ -173,12 +173,49 @@ const QUESTIONS_DATA = [
 	}
 ];
 
+const EVENTS_DATA = [
+	{
+		name: 'LAHS Fall Festival',
+		date: new Date('2024-10-05')
+	},
+	{
+		name: 'Gilroy Garlic City Classic',
+		date: new Date('2024-10-12')
+	},
+	{
+		name: 'Independence Band Tournament',
+		date: new Date('2024-10-19')
+	},
+	{
+		name: 'Cupertino Tournament of Bands*',
+		date: new Date('2024-10-26')
+	},
+	{
+		name: 'Irish Guard Invitational*',
+		date: new Date('2024-11-02')
+	},
+	{
+		name: 'Disneyland Trip',
+		date: new Date('2024-11-08'),
+		end_date: new Date('2024-11-10')
+	},
+	{
+		name: 'WBA Regional Championships',
+		date: new Date('2024-11-16')
+	},
+	{
+		name: 'Festival of Lights Parade',
+		date: new Date('2024-12-01')
+	}
+];
+
 const DATA = {
 	IMAGE_DATA,
 	NAV_DATA,
 	NEWS_STORIES,
 	STAFF_DATA,
-	QUESTIONS_DATA
+	QUESTIONS_DATA,
+	EVENTS_DATA
 };
 
 export default DATA;

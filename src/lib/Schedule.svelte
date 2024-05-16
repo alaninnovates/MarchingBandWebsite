@@ -1,9 +1,16 @@
 <script>
+	import Event from './Event.svelte';
+
 	export let id = 'schedule';
+
+	/**
+	 * @type {any[]}
+	 */
+	export let events = [];
 </script>
 
-<div {id} class="flex flex-col md:flex-row my-16 md:py-0 px-10 justify-center">
-	<div class="flex flex-col h-full my-auto items-center text-lg md:me-10">
+<div {id} class="flex flex-col my-16 px-10 justify-center">
+	<div class="flex flex-col h-full my-auto items-center text-lg">
 		<a
 			href="https://docs.google.com/document/d/18Y2kF8CL9y-v4MYUrCNjVQOOqNp9eFm5XMh3J7e1I7E/edit"
 			class="mb-3"
@@ -49,8 +56,8 @@
 			</svg>
 		</a> -->
 	</div>
-	<div class="text-lg mt-3 md:mt-0 md:me-16 text-center md:text-left">
-		<p>Check our calendar for competitions, parades, football games and more!</p>
+	<div class="text-lg mt-3 text-center">
+		<!-- <p>Check our calendar for competitions, parades, football games and more!</p> -->
 
 		<h1 class="font-bold text-xl mt-3">Weekly Rehersal Schedule</h1>
 		<p>
@@ -60,5 +67,13 @@
 			(Select) Saturdays: 9:00 AM - 4:00 PM
 		</p>
 		<p class="mt-2 text-sm">Snacks and pizza are provided for weekday practices!</p>
+
+		<h1 class="font-bold text-xl mt-8">2024 Competitions / Events</h1>
+		<div>
+			{#each events as event}
+				<Event {...event} />
+			{/each}
+			<div class="text-sm">*Will attend one of these competitions</div>
+		</div>
 	</div>
 </div>

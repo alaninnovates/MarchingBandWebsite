@@ -19,7 +19,7 @@
 <UpcomingSeason />
 <JoinUs />
 <About />
-<Schedule />
+<Schedule events={DATA.EVENTS_DATA} />
 <Carousel images={DATA.IMAGE_DATA} />
 <ParentVolunteers />
 <News articles={DATA.NEWS_STORIES} />
