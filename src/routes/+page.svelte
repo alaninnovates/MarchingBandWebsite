@@ -13,9 +13,11 @@
 	import UpcomingSeason from '$lib/UpcomingSeason.svelte';
 	import FAQ from '$lib/FAQ.svelte';
 	import Schedule from '$lib/Schedule.svelte';
+	import BandCamp from '$lib/BandCamp.svelte';
 </script>
 
 <Header links={DATA.NAV_DATA.LINKS} />
+<BandCamp />
 <UpcomingSeason />
 <JoinUs />
 <About />

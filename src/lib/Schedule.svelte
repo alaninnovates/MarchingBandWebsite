@@ -62,8 +62,8 @@
 		<h1 class="font-bold text-xl mt-3">Weekly Rehersal Schedule</h1>
 		<p>
 			Tuesday: 4:00 - 6:00 PM<br />
-			Wednesday: 7:00 - 8:30 AM<br />
 			Thursday: 4:00 - 6:00 PM<br />
+			Friday: 4:00 - 6:00 PM<br />
 			(Select) Saturdays: 9:00 AM - 4:00 PM
 		</p>
 		<p class="mt-2 text-sm">Snacks and pizza are provided for weekday practices!</p>
@@ -73,7 +73,6 @@
 			{#each events as event}
 				<Event {...event} />
 			{/each}
-			<div class="text-sm">*Will attend one of these competitions</div>
 		</div>
 	</div>
 </div>

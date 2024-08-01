@@ -187,12 +187,8 @@ const EVENTS_DATA = [
 		date: new Date('2024-10-19')
 	},
 	{
-		name: 'Cupertino Tournament of Bands*',
+		name: 'Cupertino Tournament of Bands',
 		date: new Date('2024-10-26')
-	},
-	{
-		name: 'Irish Guard Invitational*',
-		date: new Date('2024-11-02')
 	},
 	{
 		name: 'Disneyland Trip',
