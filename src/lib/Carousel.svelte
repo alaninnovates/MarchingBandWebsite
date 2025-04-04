@@ -13,12 +13,19 @@
 	 */
 	let marquee;
 
+	/**
+	 * @type {HTMLDivElement}
+	 */
+	let marquee2;
+
 	function handleMouseEnter() {
 		marquee.style.animationPlayState = 'paused';
+		marquee2.style.animationPlayState = 'paused';
 	}
 
 	function handleMouseLeave() {
 		marquee.style.animationPlayState = 'running';
+		marquee2.style.animationPlayState = 'running';
 	}
 </script>
 
@@ -36,7 +43,12 @@
 			{/each}
 		</div>
 
-		<div class="absolute top-0 flex flex-row animate-marquee2 whitespace-nowrap min-w-max">
+		<div
+			class="absolute top-0 flex flex-row animate-marquee2 whitespace-nowrap min-w-max"
+			bind:this={marquee2}
+			on:mouseenter={handleMouseEnter}
+			on:mouseleave={handleMouseLeave}
+		>
 			{#each images as image}
 				<CarouselImage {...image} />
 			{/each}
