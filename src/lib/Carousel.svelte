@@ -7,12 +7,30 @@
 	 */
 	export let images = [];
 	export let id = 'photos';
+
+	/**
+	 * @type {HTMLDivElement}
+	 */
+	let marquee;
+
+	function handleMouseEnter() {
+		marquee.style.animationPlayState = 'paused';
+	}
+
+	function handleMouseLeave() {
+		marquee.style.animationPlayState = 'running';
+	}
 </script>
 
 <div class="mt-16">
 	<Heading {id}>Marching band members travel to all sorts of exotic places!</Heading>
 	<div class="mt-6 relative flex overflow-x-hidden">
-		<div class="relative flex flex-row animate-marquee whitespace-nowrap min-w-max">
+		<div
+			class="relative flex flex-row animate-marquee whitespace-nowrap min-w-max"
+			bind:this={marquee}
+			on:mouseenter={handleMouseEnter}
+			on:mouseleave={handleMouseLeave}
+		>
 			{#each images as image}
 				<CarouselImage {...image} />
 			{/each}
