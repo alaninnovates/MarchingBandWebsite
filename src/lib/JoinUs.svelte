@@ -7,15 +7,15 @@
 
 <div {id} class="flex flex-col justify-center items-center py-16">
 	<div class="font-header text-4xl text-center mb-4 underline underline-offset-2">
-		How do I sign up?
+		How do I join?
 	</div>
 	<div class="w-full max-w-4xl flex flex-col justify-center items-center px-10 text-xl text-center">
-		<div class="">It’s easy! We will be hosting Band Camp for the 2024-25 school year from</div>
+		<div class="">It’s easy! Attend Band Camp over the summer (dates TBD) or come to one of our pre-season workshops to learn the basics! Workshops will be held on </div>
 		<div class="flex font-bold mb-2">
-			<div class="me-2">Monday, August 5th - Saturday, August 10th.</div>
+			<div class="me-2">April 16, April 23, April 30, and May 7</div>
 			<div class="text-blue-500">
 				<a
-					href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240805%2F20240811&location=Los%20Altos%20High%20School&text=LAHS%20Marching%20Band%20Camp"
+					href="https://calendar.google.com/calendar/u/0/r/eventedit?text=LAHS+Marching+Band+Workshop&dates=20250416T223000Z/20250417T003000Z&details&location=Room+803&ctz=America/Los_Angeles&recur=RRULE:FREQ%3DWEEKLY;UNTIL%3D20250507&sf=true"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@
 				</a>
 			</div>
 		</div>
-		<div>Come visit to see if marching band is right for you!</div>
+		<div>from 3:30 to 5:30 pm in the band room (803). Come visit to see if marching band is right for you!</div>
 
 		<div class="my-4 flex items-center">
 			<p>
