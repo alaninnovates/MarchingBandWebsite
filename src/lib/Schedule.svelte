@@ -66,7 +66,7 @@
 		</p>
 		<p class="mt-2 text-sm">Snacks and pizza are provided for weekday practices!</p>
 
-		<h1 class="font-bold text-xl mt-8">2024 Competitions / Events</h1>
+		<h1 class="font-bold text-xl mt-8">2025 Competitions / Events</h1>
 		<p>
 			The LAHS Marching Band performs at WBA (Western Band Association) competitions, football games, school rallies, and other events. Specific dates coming soon!
 		</p>
