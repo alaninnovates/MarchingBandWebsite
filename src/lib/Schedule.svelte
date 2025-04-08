@@ -15,7 +15,7 @@
 			href="https://docs.google.com/document/d/18Y2kF8CL9y-v4MYUrCNjVQOOqNp9eFm5XMh3J7e1I7E/edit"
 			class="mb-3"
 		>
-			<h1 class="font-header text-4xl text-center">2024 Schedule</h1>
+			<h1 class="font-header text-4xl text-center">2025 Schedule</h1>
 		</a>
 		<!-- <a
 			href="https://docs.google.com/document/d/18Y2kF8CL9y-v4MYUrCNjVQOOqNp9eFm5XMh3J7e1I7E/edit"
@@ -61,18 +61,20 @@
 
 		<h1 class="font-bold text-xl mt-3">Weekly Rehersal Schedule</h1>
 		<p>
-			Tuesday: 4:00 - 6:00 PM<br />
-			Thursday: 4:00 - 6:00 PM<br />
-			Friday: 4:00 - 6:00 PM<br />
+			Weekday practices: To be announced!<br/ >
 			(Select) Saturdays: 9:00 AM - 4:00 PM
 		</p>
 		<p class="mt-2 text-sm">Snacks and pizza are provided for weekday practices!</p>
 
-		<h1 class="font-bold text-xl mt-8">2024 Competitions / Events</h1>
-		<div>
+		<h1 class="font-bold text-xl mt-8">2025 Competitions / Events</h1>
+		<p>
+			The LAHS Marching Band performs at WBA (Western Band Association) competitions, football games, school rallies, and other events. Specific dates coming soon!
+		</p>
+<!-- ** add back in once comp schedule drops		<div>
 			{#each events as event}
 				<Event {...event} />
 			{/each}
 		</div>
+-->
 	</div>
 </div>

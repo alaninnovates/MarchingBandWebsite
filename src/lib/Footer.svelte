@@ -5,7 +5,7 @@
 <footer
 	class="w-full flex-col items-center justify-center text-center bg-black text-white mt-10 p-5"
 >
-	<div class="mb-3">2024 LAHS Marching Band and Color Guard</div>
+	<div class="mb-3">2025 LAHS Marching Band and Color Guard</div>
 	<div class="flex justify-center">
 		<!-- Instagram -->
 		<div class="px-1">

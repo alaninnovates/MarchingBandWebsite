@@ -6,7 +6,7 @@
 
 <div class="my-10 flex flex-col-reverse md:flex-row bg-cover bg-bottom overflow-hidden justify-end">
 	<div class="flex flex-col justify-center p-10 bg-white md:w-[50%]">
-		<div class="text-5xl font-header mb-3">Join us for our 2024 show: Moonlight!</div>
+		<div class="text-5xl font-header mb-3">Join us for our 2025 show: Hexed!</div>
 		<div class="text-xl">
 			Become a part of the award winning LAHS Eagle Marching Band and Color Guard today!
 		</div>
