@@ -53,7 +53,7 @@ const IMAGE_DATA = [
 	},
 	{
 		src: base + '/images/gallery/disney.png',
-		alt: 'Band members parade at Disneyland.'
+		alt: 'Band members parade at Disneyland.',
 		label: 'Disneyland!'
 	}
 ];
