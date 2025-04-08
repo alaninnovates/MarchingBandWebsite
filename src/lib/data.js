@@ -50,6 +50,11 @@ const IMAGE_DATA = [
 		src: base + '/images/gallery/walden2.jpg',
 		alt: 'Members demonstrate choreo at Walden West.',
 		label: ''
+	},
+	{
+		src: base + '/images/gallery/disney.png',
+		alt: 'Band members parade at Disneyland.'
+		label: 'Disneyland!'
 	}
 ];
 const NAV_DATA = {
