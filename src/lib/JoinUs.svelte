@@ -10,12 +10,12 @@
 		How do I join?
 	</div>
 	<div class="w-full max-w-4xl flex flex-col justify-center items-center px-10 text-xl text-center">
-		<div class="">It’s easy! Attend Band Camp over the summer (dates TBD) or come to one of our pre-season workshops to learn the basics! Workshops will be held on </div>
+		<div class="">It’s easy! Attend our annual Band Camp on </div>
 		<div class="flex font-bold mb-2">
-			<div class="me-2">April 16, April 23, April 30, and May 7</div>
+			<div class="me-2">August 1st and 2nd</div>
 			<div class="text-blue-500">
 				<a
-					href="https://calendar.google.com/calendar/u/0/r/eventedit?text=LAHS+Marching+Band+Workshop&dates=20250416T223000Z/20250417T003000Z&details&location=Room+803&ctz=America/Los_Angeles&recur=RRULE:FREQ%3DWEEKLY;UNTIL%3D20250507&sf=true"
+					href="https://calendar.google.com/calendar/u/0/r/eventedit?text=LAHS+Band+Camp&dates=20250801T160000Z/20250801T230000Z&details&location=Room+803&ctz=America/Los_Angeles&recur=RRULE:FREQ%3DDAILY;UNTIL%3D20250802&sf=true"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@
 				</a>
 			</div>
 		</div>
-		<div>from 3:30 to 5:30 pm in the band room (803). Come visit to see if marching band is right for you!</div>
+		<div>from 9 am to 4 pm in the band room (803). No prior musical or marching experience is needed -- come visit to see if marching band is right for you!</div>
 
 		<div class="my-4 flex items-center">
 			<p>
