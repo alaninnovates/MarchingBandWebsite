@@ -12,10 +12,10 @@
 	<div class="w-full max-w-4xl flex flex-col justify-center items-center px-10 text-xl text-center">
 		<div class="">It’s easy! Attend our annual Band Camp on </div>
 		<div class="flex font-bold mb-2">
-			<div class="me-2">August 1st and 2nd</div>
+			<div class="me-2">August 4th through 9th </div>
 			<div class="text-blue-500">
 				<a
-					href="https://calendar.google.com/calendar/u/0/r/eventedit?text=LAHS+Band+Camp&dates=20250801T160000Z/20250801T230000Z&details&location=Room+803&ctz=America/Los_Angeles&recur=RRULE:FREQ%3DDAILY;UNTIL%3D20250802&sf=true"
+					href="https://calendar.google.com/calendar/u/0/r/eventedit?text=LAHS+Band+Camp&dates=20250804T160000Z/20250809T230000Z&details&location=Room+803&ctz=America/Los_Angeles&recur=RRULE:FREQ%3DDAILY;UNTIL%3D20250809&sf=true"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
@@ -34,7 +34,7 @@
 				</a>
 			</div>
 		</div>
-		<div>from 9 am to 4 pm in the band room (803). No prior musical or marching experience is needed -- come visit to see if marching band is right for you!</div>
+		<div>from 9 am to 4 pm in the band room (803), with a family showcase and picnic on the 9th. No prior musical or marching experience is needed -- come visit to see if marching band is right for you! </div>
 
 		<div class="my-4 flex items-center">
 			<p>
