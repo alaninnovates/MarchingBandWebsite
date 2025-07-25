@@ -15,7 +15,7 @@
 			<div class="me-2">August 4th through 9th </div>
 			<div class="text-blue-500">
 				<a
-					href="https://calendar.google.com/calendar/u/0/r/eventedit?text=LAHS+Band+Camp&dates=20250804T160000Z/20250809T230000Z&details&location=Room+803&ctz=America/Los_Angeles&recur=RRULE:FREQ%3DDAILY;UNTIL%3D20250809&sf=true"
+					href="https://calendar.google.com/calendar/u/0/r/eventedit?text=LAHS+Band+Camp&dates=20250804T160000Z/20250804T230000Z&details&location=Room+803&ctz=America/Los_Angeles&recur=RRULE:FREQ%3DDAILY;UNTIL%3D20250809&sf=true"
 				>
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
