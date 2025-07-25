@@ -61,8 +61,9 @@
 
 		<h1 class="font-bold text-xl mt-3">Weekly Rehersal Schedule</h1>
 		<p>
-			Weekday practices: To be announced!<br/>
-			(Select) Saturdays: 9:00 AM - 4:00 PM
+			Wednesdays after school <br/>
+			Fridays after school <br/>
+			(Select) Saturdays from 9:00 AM - 4:00 PM
 		</p>
 		<p class="mt-2 text-sm">Snacks and pizza are provided for weekday practices!</p>
 
